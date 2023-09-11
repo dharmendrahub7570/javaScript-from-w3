@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> this keyword are used for same object </object></h1>
+    <p id="demo"></p>
+    <script>
+        const detail = {
+            fname: "Dharmendra",
+            lname: "Kumar",
+            age: 23,
+            fullname: function() {
+                return this.fname + " " + this.lname;
+                
+            }
+        };
+        console.log(this);
+        document.getElementById('demo').innerHTML =detail.fullname();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Celcious To Fahrenhite </h1>
+    <p id="demo"></p>
+    <script>
+        function Tofahrenhite( c) {
+            let a = 7;
+            let b = 8; // this is local variable and not used outside of the function
+            
+            document.write(a+b);
+            return c * (9/5) + 32;
+            
+        }
+      //  let Celcious = Tofahrenhite // it return the text of entire function same
+        let Celcious = Tofahrenhite (37); // it will return value in fahrenhite
+        document.getElementById('demo').innerHTML = "the fahrenhite value is  " + Celcious + "  " + "fahrenhite";
+    </script>
+</body> 
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Data types in Java script</h1>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <button type="button" onclick="document.getElementById('demo1').innerHTML = x"> number </button>
+    <button type="button" onclick="document.getElementById('demo2').innerHTML = a">  boolean</button>
+    <button type="button" onclick="document.getElementById('demo6').innerHTML = name"> String</button>
+    <button type="button" onclick="document.getElementById('demo3').innerHTML = name1.firstname + ' ' + name1.lastname ">object</button>
+    <button type="button" onclick="document.getElementById('demo4').innerHTML = name2">arrayobject</button>
+    <button type="button" onclick="document.getElementById('demo5').innerHTML = date">dateobject</button>
+    <script>
+         let x =  5; // number 
+
+         let name  = "Dharmendra Kumar" // String
+
+         let a = true;
+         let b = false; // boolean
+
+          // Object is also a types it is three types 
+          const name1 =  {firstname: " Dharmendra"  , lastname: "Kumar"};   // 1 . Object 
+
+          const name2 = [  "Hariram " , "Krishna" , "Jaganath" ];   // 2 .Array object
+
+          const date = new Date();   // 3 .Date object
+          
+    </script>
+</body>
+</html>

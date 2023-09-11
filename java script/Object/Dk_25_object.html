@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <h1> We can acces the Object through object name and their property</h1>
+    <P id="demo"></P>
+    <script>
+         let name  = {
+            firstname: "Dharmendra" ,
+            lastname : " Kumar" , 
+            age : 23 ,
+            collegenmae : "Rajkiya Engineering College"
+         }
+         document.getElementById('demo').innerHTML ="My name is "  + name.firstname + name.lastname +
+         "I am" + name.age + "years old " + "and my college name is " + name["collegenmae"]; // we can also write this.
+    </script>
+</body>
+</html>

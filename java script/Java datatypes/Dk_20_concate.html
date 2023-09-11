@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Concatanation of a number with string</h1>
+    <h2> Expression Evaluate from the left to right </h2>
+    <p id="demo"></p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = result2" > Try this</button>
+    <script>
+let x = 2;
+let name = "dharmendra kumar"
+let result =4 + x + name; //  evaluate from left to right result : 6dharmendra kumar
+let result1 =4 + name + x ; //  evaluate from left to right : 4dharmendra kumar2
+let result2 = name + 4 + x ; //  evaluate from left to right : dharmendra kumar42
+    </script>
+</body>
+</html>
